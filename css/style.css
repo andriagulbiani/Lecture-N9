@@ -1,17 +1,23 @@
+header {
+    background-color: #FFFFFF;
+    position: sticky;
+    top: -25px;
+}
+
 nav {
     display: flex;
     flex-wrap: wrap;
 }
 
 ul {
-    width: 1306px;
+    width: 1308px;
     display: flex;
     justify-content: right;
 
     li {
         font-family: "Roboto", sans-serif;
-        margin: 30px 40px;
-        margin: 30px 40px 30px 10px;
+        margin: 50px;
+        margin-left: 10px;
         font-weight: 400;
         font-size: 17px;
         line-height: 19.55px;
@@ -21,6 +27,10 @@ ul {
     .owl {
         margin-right: 605px;
         margin-left: 99px;
+    }
+
+    i {
+        margin-top: 51px;
     }
 }
 
@@ -137,8 +147,4 @@ ul {
 .section2 {
     display: flex;
     flex-direction: row;
-}
-
-i {
-    margin-top: 31px;
 }
