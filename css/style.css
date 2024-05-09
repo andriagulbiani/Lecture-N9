@@ -9,6 +9,7 @@ ul {
     justify-content: right;
 
     li {
+        font-family: "Roboto", sans-serif;
         margin: 30px 40px;
         font-weight: 400;
         font-size: 17px;
@@ -42,6 +43,7 @@ ul {
     height: 606px;
 
     h1 {
+        font-family: "Roboto", sans-serif;
         font-weight: 700;
         font-size: 79px;
         line-height: 90.84px;
@@ -49,9 +51,52 @@ ul {
     }
 
     p {
+        font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-size: 19px;
         line-height: 21.85px;
         color: #FFFFFF
     }
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    max-width: 418px;
+    padding-left: 100px;
+    padding-right: 10px;
+
+    .p1 {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 19.55px;
+        color: #636060;
+        padding-top: 84px;
+        padding-bottom: 9px;
+    }
+
+    .p2 {
+        font-family: "Roboto", sans-serif;
+        box-sizing: content-box;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 32.2px;
+        color: #010101;
+    }
+
+    .p3 {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        color: #636060;
+        padding-top: 37px;
+        padding-bottom: 607px;
+    }
+}
+
+main {
+    display: flex;
+    flex-direction: column;
 }
