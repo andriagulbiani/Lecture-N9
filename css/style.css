@@ -9,7 +9,6 @@ ul {
     justify-content: right;
 
     li {
-        align-items: baseline;
         margin: 30px 40px;
         font-weight: 400;
         font-size: 17px;
@@ -28,5 +27,31 @@ ul {
     .owl {
         margin-top: 24px;
         margin-left: 99px;
+    }
+}
+
+
+.section1-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(/images/background1.svg);
+    width: 1440px;
+    height: 606px;
+
+    h1 {
+        font-weight: 700;
+        font-size: 79px;
+        line-height: 90.84px;
+        color: #FFFFFF;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 21.85px;
+        color: #FFFFFF
     }
 }
