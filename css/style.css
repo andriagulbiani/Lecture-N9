@@ -48,7 +48,7 @@ ul {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url(/images/background1.svg);
+    background-image: url(images/background1.svg);
     width: 1440px;
     height: 606px;
     margin-right: 100px;
@@ -113,6 +113,7 @@ ul {
     flex-wrap: wrap;
     justify-content: space-between;
     max-width: 900px;
+    margin-left: 50px;
 
 
     div {
@@ -125,6 +126,8 @@ ul {
         font-size: 19px;
         line-height: 21.85px; 
         color: #343232;
+        margin-top: 23px;
+        margin-bottom: 10px;
     }
 
     p {
