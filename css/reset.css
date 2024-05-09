@@ -29,6 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: inline-block;
 }
 body {
+	max-width: 1440px;
 	line-height: 1;
 }
 ol, ul {
