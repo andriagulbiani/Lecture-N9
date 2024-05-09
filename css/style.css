@@ -1,0 +1,32 @@
+nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    width: 1306px;
+    display: flex;
+    justify-content: right;
+
+    li {
+        align-items: baseline;
+        margin: 30px 40px;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 19.55px;
+        color: #636060;
+    }
+
+    .owl {
+        margin-right: 605px;
+        margin-left: 99px;
+    }
+}
+
+.owl-div {
+
+    .owl {
+        margin-top: 24px;
+        margin-left: 99px;
+    }
+}
