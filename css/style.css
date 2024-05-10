@@ -34,6 +34,7 @@ ul {
     .owl {
         margin-top: 35px;
         margin-left: 99px;
+        
     }
 }
 
@@ -43,7 +44,7 @@ ul {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url(images/background1.svg);
+    background-image: url("../images/background1.svg");
     width: 1440px;
     height: 606px;
     margin-right: 100px;
